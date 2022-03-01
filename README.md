@@ -35,6 +35,10 @@ Link to the tool:
 
 In the previous link, go to packages and download the folder \TVL3_beta2.4, then move it to the main directory.
 
+### \data folder
+
+This folder can be used to save precalculated Hadamard matrices. This is convenient when the dimension of the Hadamard matrix is greater than 2^7, which is time consuming to compute.
+
 
 ## Simulation and execution
 
