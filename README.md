@@ -9,11 +9,13 @@ This repository contains the following folders and files:
 
 ## Structure
 Files and folders:
+- \TVAL3_beta2.4
 - \coco-train2014
 - \misc
 - \data
 - demo1.m
 - demo2.m
+- ...
 
 ## Configuration and data request
 
@@ -27,3 +29,13 @@ Link to the images:
 Please note that the previous links to the datasets might change with time, it is advisable to visit the web page of the providers, namely,  https://cocodataset.org/ and
 https://sipi.usc.edu/database/. Once the .zip files have been downloaded, they must be uncompressed into the main directory, replacing the existing folders.
 
+### TVL3 Tool
+Link to the tool:
+* [TVL3] (https://github.com/liuyang12/3DCS.git)
+
+In the previous link, go to packages and download the folder \TVL3_beta2.4, then move it to the main directory.
+
+
+## Simulation and execution
+
+To test the Matlab library, run the demo1, demo2, demo3, demo4, or demo5 script.
