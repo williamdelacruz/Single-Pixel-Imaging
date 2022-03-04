@@ -1,6 +1,12 @@
 # Single Pixel Imaging
 Sorting of the Hadamard basis for Single Pixel Imaging
 
+
+
+![This is an image](/HadamardMatrices.png)
+
+
+
 This repository contains the source code of a sorting method of the Hadamard basis applied for single pixel imaging (SPI). The sorting method is based on generalized orthogonal basis vectors which can be represented as a two-dimensional structure of Hadamard patterns. By taken advantage of the energy concentration of the Hadamard patterns at the left upper corner of the 2D structure, it is used a zigzag traversal in order to sort the patterns in descending order of importance. The obtained ordering of the patterns, within the framework of SPI, allows to reconstruct a given target image using a small number of patterns.
 
 The source code was written in Matlab on Windows operating system.
