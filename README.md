@@ -31,7 +31,7 @@ https://sipi.usc.edu/database/. Once the .zip files have been downloaded, they m
 
 
 
-### TVL3 Tool
+### TVL3 Package
 Link to the tool:
 * [TVL3] (https://github.com/liuyang12/3DCS.git)
 
