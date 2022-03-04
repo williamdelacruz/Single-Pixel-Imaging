@@ -3,6 +3,8 @@ db_path = '\coco-train2014\';
 Files = dir('.\coco-train2014\*.jpg');
 
 
+fprintf('Re-indexing %d images ...\n', length(Files));
+
 for k=1:length(Files)
    FileNames = Files(k).name;
    old_name = strcat(path_dir,db_path,FileNames);
