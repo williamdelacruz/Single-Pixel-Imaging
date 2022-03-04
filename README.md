@@ -29,6 +29,8 @@ Link to the images:
 Please note that the previous links to the datasets might change with time, it is advisable to visit the web page of the providers, namely,  https://cocodataset.org/ and
 https://sipi.usc.edu/database/. Once the .zip files have been downloaded, they must be uncompressed into the main directory, replacing the existing folders.
 
+
+
 ### TVL3 Tool
 Link to the tool:
 * [TVL3] (https://github.com/liuyang12/3DCS.git)
@@ -42,4 +44,7 @@ This folder can be used to save precalculated Hadamard matrices. This is conveni
 
 ## Simulation and execution
 
-To test the Matlab library, run the demo1, demo2, demo3, demo4, or demo5 script.
+To test the Matlab library, run the `demo1.m`, `demo2.m`, `demo3.m`, `demo4.m`, or `demo5.m` script.
+
+
+_Important:_ 
