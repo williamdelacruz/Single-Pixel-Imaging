@@ -88,8 +88,8 @@ for im=1:num_images
         [target, target_noise] = dspi_differential(H1, img, snr, dim, option_sampling, sampling_ratio);
         list_rmse(iter,1, im) = rmse(img, target);             % RMSE
         list_rmse_noise(iter,1, im) = rmse(img, target_noise);
-        list_ssim(iter, 1, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 1, im) = ssim(target_noise, img);
+        list_ssim(iter, 1, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 1, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 1, im) = target;                 % Images
         img_noise(:,:,iter, 1, im) = target_noise;   
     
@@ -97,8 +97,8 @@ for im=1:num_images
         [target, target_noise] = dspi_differential(H2, img, snr, dim, option_sampling, sampling_ratio);
         list_rmse(iter,2,im) = rmse(img, target);              % RMSE
         list_rmse_noise(iter,2,im) = rmse(img, target_noise);
-        list_ssim(iter, 2, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 2, im) = ssim(target_noise, img);
+        list_ssim(iter, 2, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 2, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 2,im) = target;                  % Images
         img_noise(:,:,iter, 2,im) = target_noise;
     
@@ -106,8 +106,8 @@ for im=1:num_images
         [target, target_noise] = dspi_differential(H3, img, snr, dim, option_sampling, sampling_ratio);
         list_rmse(iter,3,im) = rmse(img, target);              % RMSE
         list_rmse_noise(iter,3,im) = rmse(img, target_noise);
-        list_ssim(iter, 3, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 3, im) = ssim(target_noise, img);
+        list_ssim(iter, 3, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 3, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 3,im) = target;                  % Images
         img_noise(:,:,iter, 3,im) = target_noise;
     
@@ -115,8 +115,8 @@ for im=1:num_images
         [target, target_noise] = dspi_differential(H4, img, snr, dim, option_sampling, sampling_ratio);
         list_rmse(iter,4,im) = rmse(img, target);              % RMSE
         list_rmse_noise(iter,4,im) = rmse(img, target_noise);
-        list_ssim(iter, 4, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 4, im) = ssim(target_noise, img);
+        list_ssim(iter, 4, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 4, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 4,im) = target;                  % Images
         img_noise(:,:,iter, 4,im) = target_noise;
 
@@ -124,8 +124,8 @@ for im=1:num_images
         [target, target_noise] = dspi_differential(H5, img, snr, dim, option_sampling, sampling_ratio);
         list_rmse(iter,5,im) = rmse(img, target);              % RMSE
         list_rmse_noise(iter,5,im) = rmse(img, target_noise);
-        list_ssim(iter, 5, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 5, im) = ssim(target_noise, img);
+        list_ssim(iter, 5, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 5, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 5,im) = target;                  % Imagenes 
         img_noise(:,:,iter, 5,im) = target_noise;
     
