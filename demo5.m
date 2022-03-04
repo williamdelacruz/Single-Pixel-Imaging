@@ -129,8 +129,8 @@ for im=1:num_images
         % save solutions
         list_rmse(iter,1,im) = rmse(img, target);              % RMSE
         list_rmse_noise(iter,1,im) = rmse(img, target_noise);
-        list_ssim(iter, 1, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 1, im) = ssim(target_noise, img);
+        list_ssim(iter, 1, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 1, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 1,im) = target;                  % Imagenes
         img_noise(:,:,iter, 1,im) = target_noise;
 
@@ -168,8 +168,8 @@ for im=1:num_images
         % save solutions
         list_rmse(iter,2,im) = rmse(img, target);              % RMSE
         list_rmse_noise(iter,2,im) = rmse(img, target_noise);
-        list_ssim(iter, 2, im) = ssim(target, img);            % SSIM
-        list_ssim_noise(iter, 2, im) = ssim(target_noise, img);
+        list_ssim(iter, 2, im) = ssim_index(target*255, img*255);            % SSIM
+        list_ssim_noise(iter, 2, im) = ssim_index(target_noise*255, img*255);
         img_nonoise(:,:,iter, 2,im) = target;                  % Imagenes 
         img_noise(:,:,iter, 2,im) = target_noise;
     
