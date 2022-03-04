@@ -47,4 +47,4 @@ This folder can be used to save precalculated Hadamard matrices. This is conveni
 To test the Matlab library, run the `demo1.m`, `demo2.m`, `demo3.m`, `demo4.m`, or `demo5.m` script.
 
 
-_Important:_ 
+_Important:_ `demo4.m` and  `demo5.m` require to rename the images of the COCO database before their execution. So, please, into the command prompt of the Matlab environment, type the script `renameImages` and wait until finished.
