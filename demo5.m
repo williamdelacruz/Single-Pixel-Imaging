@@ -10,8 +10,12 @@ clear
 
 base_path = pwd;
 
+base_path = strcat(base_path,'\3DCS\packages\');
+
 cd(strcat(base_path,'\TVAL3_beta2.4'))
 path(path,genpath(pwd));
+cd('..')
+cd('..')
 cd('..')
 
 % - - - - - - - - - - - - - - - - - - 
