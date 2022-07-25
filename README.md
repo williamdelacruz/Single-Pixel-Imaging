@@ -58,4 +58,11 @@ _Important:_
 - `demo4.m` and  `demo5.m` require the `ssim` function for computing the Optimized Structural Similarity Index between two images. Matlab supports an implementation of the `ssim` function since R2014a into the Image Processing Toolbox. An existing implementation can be obtained from the following link [The SSIM Index for Image Quality Assessment](https://ece.uwaterloo.ca/~z70wang/research/ssim/). It was originally proposed in Z. Wang, A. C. Bovik, H. R. Sheikh and E. P. Simoncelli, "[Image quality assessment: From error visibility to structural similarity](https://doi.org/10.1109/TIP.2003.819861)," IEEE Transactions on Image Processing, vol. 13, no. 4, pp. 600-612, Apr. 2004.
 - If the provided repository is helpful for your research, please cite the following paper: 
   [Lourdes López-García, William Cruz-Santos, Anmi García-Arellano, Pedro Filio-Aguilar, José A. Cisneros-Martínez, and Rubén Ramos-García, "Efficient ordering of the Hadamard basis for single pixel imaging," Opt. Express 30, 13714-13732 (2022)](https://doi.org/10.1364/OE.451656)
+  
+  
+  Related references
+  
+- Donoho, D.L. (2006), For most large underdetermined systems of linear equations the minimal 𝓁1-norm solution is also the sparsest solution. Comm. Pure Appl. Math., 59: 797-829. https://doi.org/10.1002/cpa.20132
+- Candes, E., Romberg, J. Quantitative Robust Uncertainty Principles and Optimally Sparse Decompositions. Found Comput Math 6, 227–254 (2006). https://doi.org/10.1007/s10208-004-0162-x
+- Candès, Emmanuel & Romberg, Justin & Tao, Terence. (2006). Robust Uncertainty Principles : Exact Signal Frequency Information. Information Theory, IEEE Transactions on. 52. 489-509. 10.1109/TIT.2005.862083. 
 
