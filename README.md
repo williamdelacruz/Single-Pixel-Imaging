@@ -64,5 +64,5 @@ _Related references_
   
 - Donoho, D.L. (2006), For most large underdetermined systems of linear equations the minimal 𝓁1-norm solution is also the sparsest solution. Comm. Pure Appl. Math., 59: 797-829. https://doi.org/10.1002/cpa.20132
 - Candes, E., Romberg, J. Quantitative Robust Uncertainty Principles and Optimally Sparse Decompositions. Found Comput Math 6, 227–254 (2006). https://doi.org/10.1007/s10208-004-0162-x
-- Candès, Emmanuel & Romberg, Justin & Tao, Terence. (2006). Robust Uncertainty Principles : Exact Signal Frequency Information. Information Theory, IEEE Transactions on. 52. 489-509. 10.1109/TIT.2005.862083. 
+- Candès, Emmanuel & Romberg, Justin & Tao, Terence. (2006). Robust Uncertainty Principles : Exact Signal Frequency Information. Information Theory, IEEE Transactions on. 52. 489-509. https://doi.org/10.1109/TIT.2005.862083
 
