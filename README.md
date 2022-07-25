@@ -12,7 +12,7 @@ This repository contains the source code of a sorting method of the Hadamard bas
 The source code was written in Matlab on Windows operating system.
 
 
-For an introduction to single pixel imaging see the documents [intro]{https://github.com/williamdelacruz/Single-Pixel-Imaging/blob/master/intro.pdf}
+For an introduction to single pixel imaging see the documents [intro](https://github.com/williamdelacruz/Single-Pixel-Imaging/blob/master/intro.pdf)
 
 This repository contains the following folders and files:
 
