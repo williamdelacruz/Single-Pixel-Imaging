@@ -60,7 +60,7 @@ _Important:_
   [Lourdes López-García, William Cruz-Santos, Anmi García-Arellano, Pedro Filio-Aguilar, José A. Cisneros-Martínez, and Rubén Ramos-García, "Efficient ordering of the Hadamard basis for single pixel imaging," Opt. Express 30, 13714-13732 (2022)](https://doi.org/10.1364/OE.451656)
   
   
-  Related references
+_Related references_
   
 - Donoho, D.L. (2006), For most large underdetermined systems of linear equations the minimal 𝓁1-norm solution is also the sparsest solution. Comm. Pure Appl. Math., 59: 797-829. https://doi.org/10.1002/cpa.20132
 - Candes, E., Romberg, J. Quantitative Robust Uncertainty Principles and Optimally Sparse Decompositions. Found Comput Math 6, 227–254 (2006). https://doi.org/10.1007/s10208-004-0162-x
